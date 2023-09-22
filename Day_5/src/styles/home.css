@@ -1,0 +1,71 @@
+.loginc{
+    background-image: url('../Assets/Home.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.home-container {
+    position: absolute;
+    margin-top: 100%;
+    margin-left: 150%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 200px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+
+ 
+  /* Button.css */
+/* home.css */
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .login-button {
+    
+    display: inline-block;
+    padding: 15px 50px;
+    margin-left: 550px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 20px; /* Adjust the spacing between buttons */
+    margin-top: 550px;
+    margin-bottom: 105.5px;
+    
+    
+  }
+  
+  .signup-button {
+    display: inline-block;
+    padding: 15px 50px;
+    margin-right: 100;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-image: linear-gradient(45deg, #bad1eb, #d05322);
+  }
+  
+  .signup-button:hover {
+    background-image: linear-gradient(45deg, #d05322,#bad1eb );
+  }
+  
+  
+  
+  /* Add additional styling for your home page content as needed */
+
+  
