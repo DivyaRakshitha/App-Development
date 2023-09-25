@@ -1,0 +1,106 @@
+/* dashboard.css */
+
+/* Dashboard Container */
+.dashboard-container {
+    background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  
+  
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 250px;
+    height: auto;
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Stack sidebar items vertically */
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Content */
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  /* Top Navigation */
+  .top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; /* Add space between top navigation and main content */
+  }
+  
+  .welcome {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px; /* Add padding for better button appearance */
+  }
+  
+  button:hover {
+    text-decoration: underline;
+  }
+  
+  /* Card Container */
+  .card-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next row */
+    justify-content:center;
+    gap: 30px;
+    
+  }
+  
+  /* Cards */
+  .dashcard {
+    width: calc(70%);
+    border: 1px solid blueviolet;
+    background-color:rgb(192, 171, 192) !important;
+    /* rgb(231, 218, 219) */
+    background-repeat: no-repeat;
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .dashcard:hover {
+    transform: scale(1.05);
+  }
+  
+  
+  

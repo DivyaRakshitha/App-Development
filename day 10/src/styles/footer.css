@@ -1,0 +1,79 @@
+
+/* Default styles for the footer */
+.footer {
+    background-color: black;
+    color: white;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .footer a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .copyright {
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+  }
+  
+  /* Responsive styles for mobile devices */
+  @media (max-width: 767px) {
+    .footer {
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+      padding: 10px;
+    }
+  
+    .footer a {
+      margin: 5px 0;
+    }
+  
+    .copyright {
+      margin-left: 0;
+    }
+  }
+  
+  /* Responsive styles for tablets (e.g., iPad) */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .footer {
+      /* Tablet-specific styles */
+      padding: 10px 20px; /* Adjust padding for tablets */
+    }
+  
+    .footer a {
+      /* Tablet-specific styles */
+      font-size: 14px; /* Increase font size for tablets */
+    }
+  
+    .copyright {
+      /* Tablet-specific styles */
+      margin-left: 10px; /* Adjust margin for tablets */
+    }
+  }
+  
+  /* Responsive styles for desktops and larger screens */
+  @media (min-width: 1024px) {
+    .footer {
+      /* Desktop-specific styles */
+      padding: 20px; /* Increase padding for desktops */
+    }
+  
+    .footer a {
+      /* Desktop-specific styles */
+      font-size: 16px; /* Increase font size for desktops */
+    }
+  
+    .copyright {
+      /* Desktop-specific styles */
+      margin-left: 20px; /* Adjust margin for desktops */
+    }
+  }
+  

@@ -1,0 +1,59 @@
+/* Policy.css */
+
+/* Apply styles to the main container */
+.wrape {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    height: 70%;
+    background-color: #eee;
+    margin: 60px 170px 60px 170px;
+  }
+  
+  /* Style the policy container */
+  .containerpolicy {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+   
+  }
+  
+  /* Style the heading */
+  .container__heading h2 {
+    font-size: 24px;
+    color: #1114c7;
+    margin-left: 60px;
+
+    
+  }
+  
+  /* Style the icon labels */
+  .iconpolicy1 {
+    font-weight: bold;
+    color: #2f0fc2;
+    font-size: larger;
+  }
+  
+  /* Style the paragraphs within the content */
+  .container__content p {
+    text-transform: none; /* Remove text transformation */
+    font-size: 14px;
+    line-height: 1.5;
+    color: #3c3232;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 350;
+    margin-left: 35px;
+  }
+  
+  /* Style the effective date */
+  
+  /* Style links */
+  .container__content a {
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  

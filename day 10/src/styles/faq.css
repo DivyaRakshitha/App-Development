@@ -1,0 +1,89 @@
+/* Faq.css */
+
+/* Style for the FAQ section container */
+.faq-section {
+    background-color: #f5f5f5;
+    padding: 60px 0;
+  }
+  
+  /* Style for the FAQ section title */
+  .faq-title h2 {
+    margin-top: -30px;
+    font-size: 36px;
+    color: #073ad4;
+    margin-left: 730px;
+    text-transform: uppercase;
+    margin-left: 50px;
+    /* Add any additional styles you want here */
+}
+
+  /* Style for the FAQ cards with 75% width */
+  .carder1 {
+    margin-top: 30px;
+    border: 3px solid #bcd2f9;
+    margin-bottom: 20px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+  
+  /* Style for the FAQ card headers */
+  .carder1-header {
+    background-color: #fff;
+    cursor: pointer;
+    padding: 15px 20px;
+    border-bottom: 1px solid #e0e0e0;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Style for the FAQ card titles */
+  .faq-title h5 {
+    font-size: 18px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Style for the FAQ card titles when expanded */
+  .faq-title[aria-expanded="true"] {
+    background-color: #f5f5f5;
+  }
+  
+  /* Style for the FAQ card bodies */
+  .card-body {
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  /* Style for the badge in FAQ card titles */
+  .badge {
+    background-color: #007bff;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  /* Style for the footer */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .col-md-6.offset-md-3 {
+      width: 100%;
+    }
+  }

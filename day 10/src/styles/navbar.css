@@ -1,0 +1,75 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap');
+
+/* Reset some default styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+/* Navbar styles */
+.landingNav {
+  background-color: black;
+  color:black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.landingUl {
+  list-style-type: none;
+  display: flex;
+
+  gap: 50px;
+  margin: 0;
+  margin-left: 210px;
+  padding: 0;
+}
+.LandList1 {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin-left: 250px;
+    transition: color 0.3s;
+  }
+  
+.LandList {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  margin-left: 50px;
+  transition: color 0.3s;
+}
+
+.LandList1:hover {
+  color: purple; 
+
+}
+.LandList:hover {
+    color: purple; 
+  
+}  
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #1a1a1a;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-top: 1px solid #ccc;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
